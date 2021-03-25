@@ -1,0 +1,42 @@
+.d1 {
+    background: #ffffff;
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.d2 {
+    background: #F5F5F3;
+    margin: auto;
+}
+
+.t1 {
+    color: #2C2A50;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.t3 {
+    color: #2C2A50;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.t2 {
+    color: #AAB0D8;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.t4 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.fondo {
+    background-color: #98DF0D;
+    color: white;
+}

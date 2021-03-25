@@ -1,0 +1,18 @@
+.fondo {
+    background-color: #0C1633;
+    color: white;
+    font-size: 13px;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.firma {
+    text-align: center;
+}
+
+.fas {
+    color: red;
+}

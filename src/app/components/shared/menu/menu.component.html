@@ -1,0 +1,50 @@
+<nav class="navbar navbar-expand-lg navbar-light nav">
+    <a class="op" href="#">SuperKiddos</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="op" href="#">Nosotros </a>
+            </li>
+            <li class="nav-item">
+                <a class="op" href="#">Recursos</a>
+            </li>
+            <li class="nav-item">
+                <a class="op" href="#">Colegios</a>
+            </li>
+            <li class="nav-item">
+                <a class="op" href="#" data-toggle="modal" data-target="#modalRegisterForm">¡Regístrate gratis!</a>
+            </li>
+            <li class="nav-item">
+                <a class="op btn" href="#">  Iniciar Sesión  </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <button type="button" class="close ml-auto p-3" data-dismiss="modal" aria-label="Close">
+            
+                <span aria-hidden="true">&times;</span>
+              </button>
+            <img src="https://www.classdojo.com/static/4550dccbbab891e3074e409442729d66/18b5b/teacher_badge.png" alt="">
+            <div class="modal-header text-center">
+                <h4 class="modal-title w-100 font-weight-bold t1">Crea tu cuenta de profesor</h4>
+            </div>
+            <p class="t2">¿Ya tienes una cuenta? Inicia sesión aquí</p>
+            <div class="modal-body  text-center">
+                <input type="text" id="nombre" class="caja" placeholder=" Nombres">
+                <input type="text" id="apellidos" class="caja" placeholder=" Apellidos">
+                <input type="text" id="correo" class="caja" placeholder=" Correo electrónico">
+                <input type="text" id="password" class="caja" placeholder=" Contraseña">
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+                <button class="btn fin">Inscríbete</button>
+            </div>
+        </div>
+    </div>
+</div>
